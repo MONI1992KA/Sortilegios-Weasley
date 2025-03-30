@@ -1,6 +1,6 @@
 /* Estilos generales para la página de inicio */
 body {
-    font-family: 'Georgia', serif; /* Tipo de letra que evoca el estilo clásico de Harry Potter */
+    font-family: 'Georgia', serif; 
     background-color: #333333; /* Gris oscuro para el fondo */
     color: #f1c40f; /* Amarillo brillante para el texto */
     margin: 0;
@@ -35,20 +35,17 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block; /* Mostrar los elementos en línea */
-    margin: 0 15px; /* Espacio entre los enlaces */
+    display: inline-block; /* elementos en línea */
+    margin: 0 15px; /* Espacio enlaces */
 }
 
 nav ul li a {
-    color: #f1c40f; /* Amarillo brillante para los enlaces */
+    color: #cfc59d; /* color enlaces */
     font-size: 1.1rem;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    color: #e67e22; /* Naranja para los enlaces al pasar el ratón */
-}
 
 /* Estilos para el contenido principal en la página de inicio */
 main {
@@ -83,10 +80,9 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover {
-    color: #e67e22; /* Naranja para los enlaces al pasar el ratón */
+    color: #d1d7a0; /* Naranja para los enlaces al pasar el ratón */
 }
 
-/* ------------------------------- */
 
 /* Estilos generales para el blog */
 body.blog {
@@ -133,7 +129,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #bccb14; /* Rojo más intenso al pasar el ratón */
+    color: #bccb14;
 }
 
 main {
@@ -160,7 +156,7 @@ article a {
 }
 
 article a:hover {
-    color: #afaf62; /* Rojo anaranjado para el hover, manteniendo la atmósfera mágica */
+    color: #afaf62; 
 }
 
 article p {
@@ -177,7 +173,7 @@ footer {
 /*Podcast */
 body.podcast {
     font-family: 'Georgia', serif; /* Tipo de letra clásica para mantener la atmósfera mágica */
-    background-color: #333333; /* Fondo oscuro */
+    background-color: #181414; /* Fondo oscuro */
     color: #f1c40f; /* Amarillo brillante para el texto */
     margin: 0;
     padding: 0;
@@ -222,9 +218,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    color: #e67e22; /* Naranja para los enlaces al pasar el ratón */
-}
 
 /* Estilos para el contenido principal en la página de Podcast */
 main {
@@ -276,5 +269,5 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover {
-    color: #e67e22; /* Naranja para los enlaces al pasar el ratón */
+    color: #d5dbb7; 
 }
