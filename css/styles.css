@@ -83,6 +83,14 @@ footer nav ul li a:hover {
     color: #d1d7a0; /* Naranja para los enlaces al pasar el ratón */
 }
 
+.img {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+   
+}
+
 
 /* Estilos generales para el blog */
 body.blog {
