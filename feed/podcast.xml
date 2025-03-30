@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<podcast>
+    <titulo>Los cuentos de Beedle el Bardo</titulo>
+    <descripcion>Podcast dedicado a los cuentos mágicos del universo de Harry Potter.</descripcion>
+    <autor>Harry Potter Fan Web</autor>
+    <episodios>
+        <episodio>
+            <titulo>El mago y el cazo saltarín</titulo>
+            <descripcion>Historia de un brujo que hereda un caldero mágico con voluntad propia.</descripcion>
+            <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3</link>
+        </episodio>
+        <episodio>
+            <titulo>La fuente de la buena fortuna</titulo>
+            <descripcion>Tres brujas y un caballero en busca de una fuente mágica que concede deseos.</descripcion>
+            <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3</link>
+        </episodio>
+        <episodio>
+            <titulo>El corazón peludo del brujo</titulo>
+            <descripcion>Un mago que se despoja de su corazón para evitar enamorarse.</descripcion>
+            <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3</link>
+        </episodio>
+    </episodios>
+</podcast>
