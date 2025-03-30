@@ -292,3 +292,10 @@ footer nav ul li a {
 footer nav ul li a:hover {
     color: #d5dbb7; 
 }
+
+.img2 {
+    width: 300px; 
+   
+    width: 50%;
+}
+
