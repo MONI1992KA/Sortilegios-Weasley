@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<podcast>
+<rss version="2.0">
+ <channel>
     <titulo>Los cuentos de Beedle el Bardo</titulo>
     <descripcion>Podcast sobre los cuentos mágicos del universo de Harry Potter.</descripcion>
-    <autor>Harry Potter Fan Web</autor>
     <episodios>
         <episodio>
             <titulo>El mago y el cazo saltarín</titulo>
@@ -20,4 +20,5 @@
             <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3</link>
         </episodio>
     </episodios>
-</podcast>
+ </channel>
+</rss>
