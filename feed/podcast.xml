@@ -1,23 +1,37 @@
 <rss version="2.0">
- <channel>
-    <titulo>Los cuentos de Beedle el Bardo</titulo>
-    <descripcion>Podcast sobre los cuentos mágicos del universo de Harry Potter.</descripcion>
-    <episodios>
-        <episodio>
-            <titulo>El mago y el cazo saltarín</titulo>
-            <descripcion>Historia de un brujo que hereda un caldero mágico con voluntad propia.</descripcion>
-            <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3</link>
-        </episodio>
-        <episodio>
-            <titulo>La fuente de la buena fortuna</titulo>
-            <descripcion>Tres brujas y un caballero en busca de una fuente mágica que concede deseos.</descripcion>
-            <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3</link>
-        </episodio>
-        <episodio>
-            <titulo>El corazón peludo del brujo</titulo>
-            <descripcion>Un mago que se despoja de su corazón para evitar enamorarse.</descripcion>
-            <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3</link>
-        </episodio>
-    </episodios>
- </channel>
+  <channel>
+    <title>Los cuentos de Beedle el Bardo</title>
+    <description>Podcast sobre los cuentos mágicos del universo de Harry Potter.</description>
+    <link>https://moni1992ka.github.io/Sortilegios-Weasley/</link>
+    <language>es-ES</language>
+    <pubDate>Mon, 01 Apr 2025 12:00:00 GMT</pubDate>
+
+    <item>
+      <title>El mago y el cazo saltarín</title>
+      <description>Historia de un brujo que hereda un caldero mágico con voluntad propia.</description>
+      <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3</link>
+      <guid>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3</guid>
+      <pubDate>Mon, 01 Apr 2025 10:00:00 GMT</pubDate>
+      <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <title>La fuente de la buena fortuna</title>
+      <description>Tres brujas y un caballero en busca de una fuente mágica que concede deseos.</description>
+      <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3</link>
+      <guid>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3</guid>
+      <pubDate>Mon, 08 Apr 2025 10:00:00 GMT</pubDate>
+      <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <title>El corazón peludo del brujo</title>
+      <description>Un mago que se despoja de su corazón para evitar enamorarse.</description>
+      <link>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3</link>
+      <guid>https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3</guid>
+      <pubDate>Mon, 15 Apr 2025 10:00:00 GMT</pubDate>
+      <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" type="audio/mpeg"/>
+    </item>
+
+  </channel>
 </rss>
