@@ -23,6 +23,8 @@ header h1 {
 header h2 {
     font-size: 24px;
     margin: 10px 0;
+    margin: 20px 0;
+    
 }
 
 
@@ -243,12 +245,14 @@ main {
 
 h1, h2 {
     color: #f1c40f;
+    margin: 20px 0;
 }
 
 p {
     font-size: 16px;
     line-height: 1.6;
     color: #d3d3d3;
+    margin: 20px 0;
 }
 
 audio {
