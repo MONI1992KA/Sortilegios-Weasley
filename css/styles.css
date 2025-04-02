@@ -1,63 +1,53 @@
-/* Estilos generales para la página de inicio */
+
 body {
     font-family: 'Georgia', serif; 
-    background-color: #333333; /* Gris oscuro para el fondo */
-    color: #f1c40f; /* Amarillo brillante para el texto */
+    background-color: #333333; 
+    color: #f1c40f; 
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para el encabezado en la página de inicio */
 header {
-    background-color: #1a1a1a; /* Gris oscuro para el encabezado */
-    color: #f1c40f; /* Amarillo brillante para el texto */
+    background-color: #1a1a1a; 
+    color: #f1c40f; 
     text-align: center;
     padding: 20px;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: bold;
     margin: 0;
 }
 
 header h2 {
-    font-size: 1.2rem;
+    font-size: 24px;
     margin: 10px 0;
 }
 
-/* Estilos para el menú de navegación en la página de inicio */
+
 nav ul {
-    list-style-type: none; /* Eliminar los puntos de la lista */
+    list-style-type: none; 
     padding: 0;
     margin: 15px 0;
-    text-align: center; /* Centrar los elementos */
+    text-align: center;
 }
 
 nav ul li {
-    display: inline-block; /* elementos en línea */
-    margin: 0 15px; /* Espacio enlaces */
+    display: inline-block;
+    margin: 0 15px; 
 }
 
 nav ul li a {
-    color: #cfc59d; /* color enlaces */
-    font-size: 1.1rem;
+    color: #cfc59d; 
+    font-size: 16px;
     text-decoration: none;
     font-weight: bold;
 }
 
-
-/* Estilos para el contenido principal en la página de inicio */
-main {
-    padding: 20px;
-    text-align: center;
-    min-height: 70vh; /* Deja espacio para el pie de página */
-}
-
-/* Estilos para el pie de página en la página de inicio */
 footer {
-    background-color: #1a1a1a; /* Gris oscuro para el pie de página */
-    color: #f1c40f; /* Amarillo brillante para el texto */
+    background-color: #1a1a1a; 
+    color: #f1c40f;
     text-align: center;
     padding: 15px;
     width: 100%;
@@ -80,7 +70,7 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover {
-    color: #d1d7a0; /* Naranja para los enlaces al pasar el ratón */
+    color: #d1d7a0;
 }
 
 .img {
@@ -105,18 +95,18 @@ footer nav ul li a:hover {
 
 
 
-/* Estilos generales para el blog */
+/* blog */
 body.blog {
-    font-family: 'Georgia', serif; /* Tipo de letra que evoca el estilo clásico de Harry Potter */
-    background-color: #2f2f2f; /* Fondo oscuro para dar un toque mágico */
-    color: #d3d3d3; /* Texto en gris claro para un contraste suave */
+    font-family: 'Georgia', serif; 
+    background-color: #2f2f2f; 
+    color: #d3d3d3; 
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1d1d1d; /* Color oscuro, que evoca el misterio de Hogwarts */
-    color: #dff961; /* Rojo oscuro, combinando con el tema de Gryffindor */
+    background-color: #1d1d1d; 
+    color: #dff961;
     padding: 20px;
     text-align: center;
 }
@@ -133,17 +123,17 @@ header h2 {
 }
 
 nav ul {
-    list-style-type: none; /* Eliminar los puntos de la lista */
+    list-style-type: none; 
     padding: 0;
 }
 
 nav ul li {
-    display: inline-block; /* Alineación horizontal de los elementos */
-    margin: 0 15px; /* Espacio entre los elementos */
+    display: inline-block; 
+    margin: 0 15px; 
 }
 
 nav ul li a {
-    color: #97b122; /* Enlaces en rojo oscuro */
+    color: #97b122; 
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bold;
@@ -160,11 +150,11 @@ main {
 
 section h2 {
     font-size: 2rem;
-    color: #d3d3d3; /* Color de encabezados en gris claro */
+    color: #d3d3d3;
 }
 
 article {
-    background-color: #333333; /* Fondo oscuro para los artículos */
+    background-color: #333333;
     margin: 20px;
     padding: 15px;
     border-radius: 8px;
@@ -172,8 +162,8 @@ article {
 }
 
 article a {
-    color: #ffd700; /* Color dorado para los enlaces en los artículos */
-    text-decoration: none; /* Eliminar el subrayado */
+    color: #ffd700; 
+    text-decoration: none; 
 }
 
 article a:hover {
@@ -183,7 +173,7 @@ article a:hover {
 article p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #d3d3d3; /* Texto en gris claro */
+    color: #d3d3d3; 
 }
 
 footer {
@@ -193,17 +183,16 @@ footer {
 
 /*Podcast */
 body.podcast {
-    font-family: 'Georgia', serif; /* Tipo de letra clásica para mantener la atmósfera mágica */
-    background-color: #181414; /* Fondo oscuro */
-    color: #f1c40f; /* Amarillo brillante para el texto */
+    font-family: 'Georgia', serif; 
+    background-color: #181414;
+    color: #f1c40f;
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para el encabezado en la página de Podcast */
 header {
-    background-color: #1a1a1a; /* Gris oscuro */
-    color: #f1c40f; /* Amarillo brillante */
+    background-color: #1a1a1a; 
+    color: #f1c40f;
     text-align: center;
     padding: 20px;
 }
@@ -219,41 +208,41 @@ header h2 {
     margin: 10px 0;
 }
 
-/* Estilos para el menú de navegación en la página de Podcast */
+
 nav ul {
-    list-style-type: none; /* Eliminar los puntos de la lista */
+    list-style-type: none; 
     padding: 0;
     margin: 15px 0;
-    text-align: center; /* Centrar los elementos */
+    text-align: center;
 }
 
 nav ul li {
-    display: inline-block; /* Mostrar los elementos en línea */
-    margin: 0 15px; /* Espacio entre los enlaces */
+    display: inline-block;
+    margin: 0 15px; 
 }
 
 nav ul li a {
-    color: #f1c40f; /* Amarillo brillante */
+    color: #f1c40f; 
     font-size: 1.1rem;
     text-decoration: none;
     font-weight: bold;
 }
 
 
-/* Estilos para el contenido principal en la página de Podcast */
+
 main {
     padding: 20px;
     text-align: center;
 }
 
 h1, h2 {
-    color: #f1c40f; /* Amarillo brillante para los encabezados */
+    color: #f1c40f;
 }
 
 p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #d3d3d3; /* Gris claro para el texto */
+    color: #d3d3d3;
 }
 
 /* Estilos para el reproductor de audio */
