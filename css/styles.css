@@ -61,7 +61,7 @@ footer nav ul {
 
 footer nav ul li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 0;
 }
 
 footer nav ul li a {
@@ -69,16 +69,11 @@ footer nav ul li a {
     text-decoration: none;
 }
 
-footer nav ul li a:hover {
-    color: #d1d7a0;
-}
-
 .img {
     
     width: 100%;
     height: auto;
     border-radius: 5px;
-   
 }
 
 .feed-subscribe {
@@ -92,8 +87,6 @@ footer nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
 }
-
-
 
 /* blog */
 body.blog {
@@ -112,13 +105,13 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
     margin: 0;
 }
 
 header h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     margin: 5px 0;
 }
 
@@ -134,7 +127,7 @@ nav ul li {
 
 nav ul li a {
     color: #97b122; 
-    font-size: 1.2rem;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -149,7 +142,7 @@ main {
 }
 
 section h2 {
-    font-size: 2rem;
+    font-size: 32px;
     color: #d3d3d3;
 }
 
@@ -171,7 +164,7 @@ article a:hover {
 }
 
 article p {
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 1.6;
     color: #d3d3d3; 
 }
@@ -187,7 +180,20 @@ body.podcast {
     background-color: #181414;
     color: #f1c40f;
     margin: 0;
+    padding: 0 30px;
+
+}
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin: 0 auto;           /* Centra el main */
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;        /* Limita el ancho máximo */
+    width: 100%;              /* Se ajusta al 100% de su contenedor */
 }
 
 header {
@@ -198,13 +204,13 @@ header {
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;
 }
 
 header h2 {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin: 10px 0;
 }
 
@@ -223,7 +229,7 @@ nav ul li {
 
 nav ul li a {
     color: #f1c40f; 
-    font-size: 1.1rem;
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -240,24 +246,22 @@ h1, h2 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.6;
     color: #d3d3d3;
 }
 
-/* Estilos para el reproductor de audio */
 audio {
     margin: 20px 0;
     padding: 10px;
     background-color: #1a1a1a;
     border-radius: 5px;
-    border: 2px solid #f1c40f; /* Amarillo brillante para el borde */
+    border: 2px solid #f1c40f; 
 }
 
-/* Estilos para el pie de página en la página de Podcast */
 footer {
-    background-color: #1a1a1a; /* Gris oscuro */
-    color: #f1c40f; /* Amarillo brillante */
+    background-color: #1a1a1a;
+    color: #f1c40f;
     text-align: center;
     padding: 15px;
 }
@@ -270,7 +274,7 @@ footer nav ul {
 
 footer nav ul li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 0;
 }
 
 footer nav ul li a {
