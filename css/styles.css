@@ -296,58 +296,35 @@ footer nav ul li a:hover {
     width: 50%;
 }
 
-/* 🌟 NUEVO: Hacemos que las imágenes no se salgan del contenedor */
-img, .img, .img2 {
-    max-width: 100%;
-    height: auto;
-  }
+@media (max-width: 600px) {
+    /* 🌟 Reduce el espacio en header */
+    header {
+      padding: 10px; /* ✏️ Menos padding */
+    }
   
-  /* 🌟 NUEVO: Ajustamos menú en pantallas pequeñas */
-  @media (max-width: 600px) {
     header h1 {
-      font-size: 22px; /* ✏️ MODIFICADO: Más pequeño en móviles */
+      font-size: 20px; /* ✏️ Más pequeño */
+      margin: 5px 0;
     }
   
     header h2 {
-      font-size: 18px; /* ✏️ MODIFICADO */
+      font-size: 16px; /* ✏️ Más pequeño también */
+      margin: 5px 0;
     }
   
-    nav ul li {
-      display: block; /* 🌟 NUEVO: De horizontal a vertical */
-      margin: 10px 0;
-    }
-  
-    nav ul {
-      padding: 0;
-      margin: 10px 0;
-    }
-  
-    .feed-subscribe a {
-      display: block; /* 🌟 NUEVO: botones uno debajo del otro */
-      margin: 10px auto;
-      width: 80%;
-    }
-  
-    article {
-      margin: 10px;
-      padding: 10px;
-    }
-  
-    article p {
-      font-size: 18px; /* ✏️ MODIFICADO */
-    }
-  
-    main {
-      padding: 10px;
-    }
-  
-    .img2 {
-      width: 100%; /* ✏️ MODIFICADO */
+    /* 🌟 Reduce espacio en footer */
+    footer {
+      padding: 10px; /* ✏️ Menos padding */
+      font-size: 14px; /* ✏️ Letra más pequeña */
     }
   
     footer nav ul li {
-      display: block; /* 🌟 NUEVO: enlaces del footer uno debajo del otro */
-      margin: 8px 0;
+      margin: 6px 0;
+    }
+  
+    .feed-subscribe a {
+      font-size: 14px; /* ✏️ Botones más pequeños */
+      padding: 8px 10px;
     }
   }
   
