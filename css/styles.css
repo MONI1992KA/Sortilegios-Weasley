@@ -296,3 +296,58 @@ footer nav ul li a:hover {
     width: 50%;
 }
 
+/* 🌟 NUEVO: Hacemos que las imágenes no se salgan del contenedor */
+img, .img, .img2 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 🌟 NUEVO: Ajustamos menú en pantallas pequeñas */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 22px; /* ✏️ MODIFICADO: Más pequeño en móviles */
+    }
+  
+    header h2 {
+      font-size: 18px; /* ✏️ MODIFICADO */
+    }
+  
+    nav ul li {
+      display: block; /* 🌟 NUEVO: De horizontal a vertical */
+      margin: 10px 0;
+    }
+  
+    nav ul {
+      padding: 0;
+      margin: 10px 0;
+    }
+  
+    .feed-subscribe a {
+      display: block; /* 🌟 NUEVO: botones uno debajo del otro */
+      margin: 10px auto;
+      width: 80%;
+    }
+  
+    article {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    article p {
+      font-size: 18px; /* ✏️ MODIFICADO */
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    .img2 {
+      width: 100%; /* ✏️ MODIFICADO */
+    }
+  
+    footer nav ul li {
+      display: block; /* 🌟 NUEVO: enlaces del footer uno debajo del otro */
+      margin: 8px 0;
+    }
+  }
+  
