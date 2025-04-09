@@ -292,21 +292,3 @@ footer nav ul li a:hover {
     width: 50%;
 }
 
-/* Estilo general para todos los dispositivos */
-body {
-    font-size: 16px;
-}
-
-/* Estilos específicos para pantallas menores a 768px */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-/* Estilos específicos para pantallas mayores a 1200px */
-@media (min-width: 1200px) {
-    body {
-        font-size: 18px;
-    }
-}
