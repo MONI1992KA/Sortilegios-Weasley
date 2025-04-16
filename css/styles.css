@@ -82,6 +82,22 @@
   footer nav ul li a:hover {
     color: #d5dbb7;
   }
+
+  .opml-tags {
+    margin-top: 15px; /* Aumenta separación con lo de arriba */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .opml-tags a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #f1c40f;
+    text-decoration: none;
+  }
+  .opml-tags img {
+    margin: 0 5px; /* Espacio entre los íconos */
+    height: 20px;   /* Tamaño uniforme si quieres */
+  }
   
   /* IMAGES */
   .img {
